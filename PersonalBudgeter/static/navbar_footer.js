@@ -27,20 +27,20 @@
     if (navbarEl) {
         navbarEl.innerHTML = `
             <div class="sidebar-brand">
-                <div class="sidebar-brand-icon">💰</div>
+                <div class="sidebar-brand-icon"></div>
                 <div>
                     <div class="sidebar-brand-text">Budgeter</div>
                     <div class="sidebar-brand-sub">Personal Finance</div>
                 </div>
             </div>
-            <div class="sidebar-section-label">Navigation</div>
+            <div class="sidebar-section-label"></div>
             <nav class="sidebar-nav">
                 ${linksHTML}
             </nav>
             <div class="sidebar-footer">
                 <form method="post" action="/logout/" id="sidebar-logout-form">
                     <input type="hidden" name="csrfmiddlewaretoken" value="${getCookie('csrftoken')}">
-                    <button type="submit">
+                    <button class="sign-out-button" type="submit">
                         <span>🚪</span> Sign Out
                     </button>
                 </form>
