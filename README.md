@@ -1,4 +1,4 @@
-# 💰 Personal Budgeter
+# Personal Budgeter
 
 A full-stack personal finance web application built with Django and Django REST Framework. Track income and expenses, manage budgets, set financial goals, and visualize spending patterns — all in one place.
 
@@ -55,7 +55,7 @@ PersonalBudgeter/
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Meshref21/Personal-Budgeter.git
 cd PersonalBudgeter
 ```
 
